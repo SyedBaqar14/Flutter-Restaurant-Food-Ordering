@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.naanpoint.ordertakingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:9:5-67
+14-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:firebase_analytics] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+17-->[:firebase_analytics] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:firebase_analytics] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+18-->[:firebase_analytics] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+21
+22    <application
+22-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:10:5-35:19
+23        android:name="io.flutter.app.FlutterApplication"
+23-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:13:9-57
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\e6856c7cff7219f18cbbcc5d8d7cecec\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:15:9-43
+27        android:label="ordertakingapp"
+27-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:14:9-39
+28        android:requestLegacyExternalStorage="true"
+28-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:12:9-52
+29        android:usesCleartextTraffic="true" >
+29-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:11:9-44
+30        <activity
+30-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:16:9-34:20
+31            android:name="com.naanpoint.ordertakingapp.MainActivity"
+31-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:17:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:20:13-163
+33            android:hardwareAccelerated="true"
+33-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:21:13-47
+34            android:launchMode="singleTop"
+34-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:18:13-43
+35            android:theme="@style/LaunchTheme"
+35-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:19:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:22:13-55
+37
+38            <!--
+39                 This keeps the window background of the activity showing
+40                 until Flutter renders its first frame. It can be removed if
+41                 there is no splash screen (such as the default splash screen
+42                 defined in @style/LaunchTheme).
+43            -->
+44            <meta-data
+44-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:27:13-29:40
+45                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+45-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:28:17-82
+46                android:value="true" />
+46-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:29:17-37
+47
+48            <intent-filter>
+48-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:30:13-33:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:31:17-68
+49-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:31:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:32:17-76
+51-->E:\Hassan\FlutterApps\Food Ordering App - 2\android\app\src\main\AndroidManifest.xml:32:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <service
+55-->[:firebase_auth] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+56            android:name="com.google.firebase.components.ComponentDiscoveryService"
+56-->[:firebase_auth] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+57            android:directBootAware="true"
+57-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\1cc14a746b109ecb22ff24f6646799e5\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+58            android:exported="false" >
+58-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\83cbbc910c3a579f8f49d82e4d57a261\firebase-storage-19.1.1\AndroidManifest.xml:32:13-37
+59            <meta-data
+59-->[:firebase_auth] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+60                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+60-->[:firebase_auth] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[:firebase_auth] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+62            <meta-data
+62-->[:firebase_storage] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+63-->[:firebase_storage] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[:firebase_storage] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+65            <meta-data
+65-->[:cloud_firestore] E:\Hassan\FlutterApps\Food Ordering App - 2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+66-->[:cloud_firestore] E:\Hassan\FlutterApps\Food Ordering App - 2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:cloud_firestore] E:\Hassan\FlutterApps\Food Ordering App - 2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+68            <meta-data
+68-->[:firebase_core] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+69-->[:firebase_core] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_core] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+71            <meta-data
+71-->[:firebase_analytics] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+72                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+72-->[:firebase_analytics] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-127
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[:firebase_analytics] E:\Hassan\FlutterApps\Food Ordering App - 2\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\83cbbc910c3a579f8f49d82e4d57a261\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+75                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+75-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\83cbbc910c3a579f8f49d82e4d57a261\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\83cbbc910c3a579f8f49d82e4d57a261\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+78                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+78-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+80            <meta-data
+80-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\256bbd9ade1a556ede6fbf2b12aacbb9\play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
+81                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+81-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\256bbd9ade1a556ede6fbf2b12aacbb9\play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\256bbd9ade1a556ede6fbf2b12aacbb9\play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\b977499d84e5be5e1b8d99c604cd64d1\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+84                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+84-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\b977499d84e5be5e1b8d99c604cd64d1\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\b977499d84e5be5e1b8d99c604cd64d1\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+87-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\c96774f39e7b0b694d2c19f60e821d5d\firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+90                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+90-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\c96774f39e7b0b694d2c19f60e821d5d\firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\c96774f39e7b0b694d2c19f60e821d5d\firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+92        </service>
+93
+94        <provider
+94-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+95            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+95-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+96            android:authorities="com.naanpoint.ordertakingapp.flutter.image_provider"
+96-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+97            android:exported="false"
+97-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+98            android:grantUriPermissions="true" >
+98-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+99            <meta-data
+99-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+100                android:name="android.support.FILE_PROVIDER_PATHS"
+100-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+101                android:resource="@xml/flutter_image_picker_file_paths" />
+101-->[:image_picker] E:\Hassan\FlutterApps\Food Ordering App - 2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+102        </provider>
+103
+104        <activity
+104-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+105            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+105-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+106            android:excludeFromRecents="true"
+106-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+107            android:exported="true"
+107-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+108            android:launchMode="singleTask"
+108-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+109            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+109-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\3fea6b72018b28b472cf7d10c03aabd6\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+111
+112        <receiver
+112-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
+113            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+113-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
+115            android:exported="false" >
+115-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
+116        </receiver>
+117
+118        <service
+118-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
+119            android:name="com.google.android.gms.measurement.AppMeasurementService"
+119-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
+121            android:exported="false" />
+121-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
+122        <service
+122-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
+123            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+123-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\97d76601099faa8541f2db83a78ba161\play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
+127
+128        <receiver
+128-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+129            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+129-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+130            android:exported="true"
+130-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+131            android:permission="com.google.android.c2dm.permission.SEND" >
+131-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+132            <intent-filter>
+132-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+133                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+133-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+133-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ca801f0aabf9aa801101cf4b4797ed52\firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+134            </intent-filter>
+135        </receiver>
+136
+137        <provider
+137-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\1cc14a746b109ecb22ff24f6646799e5\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+138            android:name="com.google.firebase.provider.FirebaseInitProvider"
+138-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\1cc14a746b109ecb22ff24f6646799e5\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+139            android:authorities="com.naanpoint.ordertakingapp.firebaseinitprovider"
+139-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\1cc14a746b109ecb22ff24f6646799e5\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+140            android:exported="false"
+140-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\1cc14a746b109ecb22ff24f6646799e5\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+141            android:initOrder="100" />
+141-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\1cc14a746b109ecb22ff24f6646799e5\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+142
+143        <activity
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\81afe58a448e3ee778bc0f2a4c0fa85d\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+144            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\81afe58a448e3ee778bc0f2a4c0fa85d\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\81afe58a448e3ee778bc0f2a4c0fa85d\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\81afe58a448e3ee778bc0f2a4c0fa85d\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ebeabcc54bba2e085ed5491c321729e2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ebeabcc54bba2e085ed5491c321729e2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PIXUS\.gradle\caches\transforms-2\files-2.1\ebeabcc54bba2e085ed5491c321729e2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+151    </application>
+152
+153</manifest>

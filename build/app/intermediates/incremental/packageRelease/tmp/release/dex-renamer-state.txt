@@ -1,0 +1,4 @@
+#Sat Mar 20 13:18:12 PKT 2021
+base.0=E\:\\Hassan\\FlutterApps\\Food Ordering App - 2\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

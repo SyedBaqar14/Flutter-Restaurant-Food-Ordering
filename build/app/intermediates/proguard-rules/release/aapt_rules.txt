@@ -1,0 +1,24 @@
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:26
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:146
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:117
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:107
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:113
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:123
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:58
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:131
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:140
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:33
+-keep class com.naanpoint.ordertakingapp.MainActivity { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:26
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at E:\Hassan\FlutterApps\Food Ordering App - 2\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:97
+-keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
