@@ -1,16 +1,5 @@
-# ordertakingapp
+# FoodOrderingAppFlutter
 
-A new Flutter application.
+Restaurant Food Ordering Application.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![this is image text](https://github.com/SyedBaqar14/DATAIMAGES/blob/main/Screenshot_20210316-214348.png?raw=true) ![this is image text](https://github.com/SyedBaqar14/DATAIMAGES/blob/main/Screenshot_20210316-214352.png?raw=true) ![this is image text](https://github.com/SyedBaqar14/DATAIMAGES/blob/main/Screenshot_20210316-214356.png?raw=true) ![this is image text](https://github.com/SyedBaqar14/DATAIMAGES/blob/main/Screenshot_20210316-214403.png?raw=true) ![this is image text](https://github.com/SyedBaqar14/DATAIMAGES/blob/main/Screenshot_20210316-214432.png?raw=true) ![this is image text](https://github.com/SyedBaqar14/DATAIMAGES/blob/main/Screenshot_20210316-214442.png?raw=true) 
